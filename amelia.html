@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Amelia Grace Pisapia | College Savings Plan</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="robots" content="none" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+        <meta name="apple-touch-fullscreen" content="yes"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+        <meta name="apple-mobile-web-app-title" content="Amelia Grace Pisapia"/>
+        <meta name="title" content="Amelia Grace Pisapia's College Savings Plan">
+        <meta name="author" content="Michael Pisapia" />
+        <meta name="description" content="Help send Amelia Grace to school with your donation!" />
+        <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+        <link rel="icon" type="image/png" href="/images/favicon.png" />
+        <link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon.png" />
+        <link rel="stylesheet" type="text/css" href="/chrome/pisapia.css" />
+        <script type="text/javascript">
+          // prevent bounce
+          document.ontouchmove = function(e) {e.preventDefault()};
+          // calculate kids age
+          var dob = new Date("03/19/2017");
+          var month_diff = Date.now() - dob.getTime();
+          var age_dt = new Date(month_diff);
+          var year = age_dt.getUTCFullYear();
+          var age = Math.abs(year - 1970);
+        </script>
+    </head>
+    <body>
+      <header>
+      <h1>Amelia Grace's <span>College Savings Plan</span></h1>
+      <p>Thank you for helping me with my education savings. Every little bit helps! xoxo Amelia</p>
+      </header>
+      <section>
+        <article>
+          <img src="/images/qrcode-amelia.png" alt="" />
+          <dl>
+            <dt>Age</dt>
+            <dd>
+              <script type="text/javascript">
+                 document.write(age);
+              </script>
+            </dd>
+            <dt>Entering College In</dt>
+            <dd>2035</dd>
+            <dt>Dream</dt>
+            <dd>To reach for the stars without breaking the bank!</dd>
+          </dl>
+          <p> Scan the code or use the URL: <a href="https://go.fidelity.com/9zsws6">https://go.fidelity.com/9zsws6</a> to access Amelia Grace's page</a></p>
+        </article>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+        </ul>
+      </footer>
+    </body>
+</html>
+
